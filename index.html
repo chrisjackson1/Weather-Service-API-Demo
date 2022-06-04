@@ -1,83 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-9">
                 <h1>Weather Dashboard</h1>
             </div>
-            
         </div>
-
     </header>
 
-    
     <main class="container">
-        <section class="row">
+        <section>
             <div class="col-12 col-md-4">
                 <div class="card">
-                   <h3 class="card-header text-uppercase">Search For a City</h3> 
-                   <form id="user-form" class="card-body">
-                    <label class="form-label" for="username">Username</label>
-                    <input name="username" id="username" type="text" autofocus="true" class="form-input">
-                   </form>
+                    <h3 class="card-header text-uppercase">Search For a City</h3>
+                    <form id="user-form" class="card-body">
+                        <label class="form-label" for="usertype"></label>
+                        <input name="username" id="citySearch" type="text" autofocus="true" class="form-input" />
+                    </form>
+                    <button class="search-city">Search</button>
                 </div>
-
             </div>
-            
-         <div class="col-12 col-md-9">
+        </section>
+
         <h2>5 Day Forecast</h2>
-    <section class="row justify-content-around">
-        <div class="col-12 col-sm-6 col-lg-4 mb-3">
-         <div class="card">
-             <h3 class="card-header">
-               Service 1
-             </h3>
-        <div class="card-body">
-            <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto corporis ea labore quis nihil aspernatur accusamus repellendus, rem aut hic?
-            </p>
-            <button class="btm btn-block btn info"></button>
-        </div>
-         </div>
-        </div>
-    </div>
-        <div class="col-12 col-sm-6 col-lg-4 mb-3">
-            <div class="card">
+        <section class="d-flex forecast-container">
+
+            <div class="card forecast-card">
+                <h3 class="card-header">
+                    Service 1
+                </h3>
+                <div class="card-body">
+                    <p class="card-text">
+                       
+                    </p>
+                    <button class="btm btn-block btn info"></button>
+                </div>
+            </div>
+
+
+            <div class="card forecast-card">
                 <h3 class="card-header">
                     Service 2
                 </h3>
                 <div class="card-body">
                     <p class="card-text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempore nesciunt quibusdam autem eos veritatis praesentium repudiandae? Tempora, mollitia ab!
+                    
                     </p>
                     <button class="btm btn-block btn info"></button>
                 </div>
             </div>
-        </div>
-       <div class="col-12 col-sm-6 col-lg-4 mb-3">
-           <div class="card">
-               <h3 class="card-header">
-                Service 3
-               </h3>
-               <div class="card-body">
-                   <p class="card-text">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora suscipit mollitia cumque blanditiis sunt harum hic perferendis voluptates sequi architecto!
-                   </p>
-                   <button class="btm btn-block btn info"></button>
-               </div>
-           </div>
-       </div>
-        
-    </section>
-</main>
 
+
+            <div class="card forecast-card">
+                <h3 class="card-header">
+                    Service 3
+                </h3>
+                <div class="card-body">
+                    <p class="card-text">
+                     
+                    </p>
+                    <button class="btm btn-block btn info"></button>
+                </div>
+            </div>
+
+
+            <div class="card forecast-card">
+                <h3 class="card-header">
+                    Service 4
+                </h3>
+                <div class="card-body">
+                    <p class="card-text">
+                       
+                    </p>
+                    <button class="btm btn-block btn info"></button>
+                </div>
+            </div>
+
+            <div class="card forecast-card">
+                <h3 class="card-header">
+                    Service 5
+                </h3>
+                <div class="card-body">
+                    <p class="card-text">
+                     
+                    </p>
+                    <button class="btm btn-block btn info"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="javascript.js"></script>
 </body>
+
 </html>

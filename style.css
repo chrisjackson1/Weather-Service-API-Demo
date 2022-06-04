@@ -1,0 +1,9 @@
+.forecast-container{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.forecast-card{
+    width: 200px;
+
+}
