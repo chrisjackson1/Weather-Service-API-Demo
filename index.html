@@ -19,88 +19,94 @@
         </div>
     </header>
 
-    <main class="container">
-        <section>
-            <div class="col-12 col-md-4">
+    <main class="container-fluid row">
+        <section class="col-3 ">
+            <div class="container-fluid">
                 <div class="card">
                     <h3 class="card-header text-uppercase">Search For a City</h3>
                     <form id="user-form" class="card-body">
-                        <label class="form-label" for="usertype"></label>
-                        <input name="username" id="citySearch" type="text" autofocus="true" class="form-input" />
+                        <input id="citySearch" type="text" class="form-input" />
+                        <button class="search-city">Search</button>
                     </form>
-                    <button class="search-city">Search</button>
                 </div>
             </div>
         </section>
+        <section class="col-9 ">
 
-        <h2>5 Day Forecast</h2>
-        <section class="d-flex forecast-container">
+            <section id="currentWeather"></section>
 
-            <div class="card forecast-card">
-                <h3 class="card-header">
-                    Service 1
-                </h3>
-                <div class="card-body">
-                    <p class="card-text">
-                       
-                    </p>
-                    <button class="btm btn-block btn info"></button>
+            <section class="forecast-container">
+                <h2>5 Day Forecast</h2>
+
+                <div class="d-flex">
+
+                    <div class="card forecast-card">
+                        <h3 class="card-header">
+                            Service 1
+                        </h3>
+                        <div class="card-body">
+                            <p class="card-text">
+
+                            </p>
+                            <button class="btm btn-block btn info"></button>
+                        </div>
+                    </div>
+
+
+                    <div class="card forecast-card">
+                        <h3 class="card-header">
+                            Service 2
+                        </h3>
+                        <div class="card-body">
+                            <p class="card-text">
+
+                            </p>
+                            <button class="btm btn-block btn info"></button>
+                        </div>
+                    </div>
+
+
+                    <div class="card forecast-card">
+                        <h3 class="card-header">
+                            Service 3
+                        </h3>
+                        <div class="card-body">
+                            <p class="card-text">
+
+                            </p>
+                            <button class="btm btn-block btn info"></button>
+                        </div>
+                    </div>
+
+
+                    <div class="card forecast-card">
+                        <h3 class="card-header">
+                            Service 4
+                        </h3>
+                        <div class="card-body">
+                            <p class="card-text">
+
+                            </p>
+                            <button class="btm btn-block btn info"></button>
+                        </div>
+                    </div>
+
+                    <div class="card forecast-card">
+                        <h3 class="card-header">
+                            Service 5
+                        </h3>
+                        <div class="card-body">
+                            <p class="card-text">
+
+                            </p>
+                            <button class="btm btn-block btn info"></button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-
-            <div class="card forecast-card">
-                <h3 class="card-header">
-                    Service 2
-                </h3>
-                <div class="card-body">
-                    <p class="card-text">
-                    
-                    </p>
-                    <button class="btm btn-block btn info"></button>
-                </div>
-            </div>
-
-
-            <div class="card forecast-card">
-                <h3 class="card-header">
-                    Service 3
-                </h3>
-                <div class="card-body">
-                    <p class="card-text">
-                     
-                    </p>
-                    <button class="btm btn-block btn info"></button>
-                </div>
-            </div>
-
-
-            <div class="card forecast-card">
-                <h3 class="card-header">
-                    Service 4
-                </h3>
-                <div class="card-body">
-                    <p class="card-text">
-                       
-                    </p>
-                    <button class="btm btn-block btn info"></button>
-                </div>
-            </div>
-
-            <div class="card forecast-card">
-                <h3 class="card-header">
-                    Service 5
-                </h3>
-                <div class="card-body">
-                    <p class="card-text">
-                     
-                    </p>
-                    <button class="btm btn-block btn info"></button>
-                </div>
-            </div>
+            </section>
         </section>
     </main>
-<script src="javascript.js"></script>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
