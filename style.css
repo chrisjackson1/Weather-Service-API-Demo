@@ -7,3 +7,17 @@
     width: 200px;
 
 } */
+
+main{
+background-color: #923cb5;
+ background-image: linear-gradient(to right, #04001e, #26226f 25%, #04001E);
+   color: white;  
+}
+.container-flud{
+    
+}
+
+.card-header{
+    color: black;
+}
+
